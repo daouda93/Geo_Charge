@@ -71,10 +71,11 @@
             android:layout_column="0" />
 
         <RelativeLayout
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_row="4"
-            android:layout_column="0">
+            android:layout_column="0"
+            android:layout_gravity="center">
             <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -90,13 +91,26 @@
             <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:id="@+id/delete_infowindow"
+                android:src="@drawable/ic_delete_black_48dp"
+                android:title="@string/report_infoWindow"
+                style="?android:attr/borderlessButtonStyle"
+                android:adjustViewBounds="true"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/favorite_infoWindow"
+                android:layout_toEndOf="@+id/favorite_infoWindow" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:id="@+id/itineraire_infoWindow"
                 android:src="@drawable/ic_directions_black_48dp"
                 android:title="@string/directions_infoWindow"
                 style="?android:attr/borderlessButtonStyle"
                 android:adjustViewBounds="true"
                 android:layout_alignParentTop="true"
-                android:layout_centerHorizontal="true" />
+                android:layout_toRightOf="@+id/delete_infowindow"
+                android:layout_toEndOf="@+id/delete_infowindow" />
 
             <ImageButton
                 android:layout_width="wrap_content"
@@ -107,8 +121,10 @@
                 style="?android:attr/borderlessButtonStyle"
                 android:adjustViewBounds="true"
                 android:layout_alignParentTop="true"
-                android:layout_alignParentRight="true"
-                android:layout_alignParentEnd="true" />
+                android:layout_toRightOf="@+id/itineraire_infoWindow"
+                android:layout_toEndOf="@+id/itineraire_infoWindow" />
+
+
         </RelativeLayout>
 
     </GridLayout>
