@@ -1,0 +1,41 @@
+<resources>
+    <!-- Nom activités -->
+    <string name="app_name">GeoCharge</string>
+    <string name="app_settings">Réglages</string>
+    <string name="app_favorite">Favoris</string>
+
+    <!-- ActionBar items -->
+    <string name="action_settings">Réglages</string>
+    <string name="action_favorite">Favoris</string>
+    <string name="action_add">Ajouter Bornes</string>
+
+    <!-- Sous catégories réglage -->
+    <string name="settings_account">Compte</string>
+    <string name="settings_help">Aide</string>
+    <string name="settings_about">A propos</string>
+
+    <!-- Ajout Borne -->
+    <string name="title_add">Ajouter une borne</string>
+    <string name="message_add">Pour ajouter une borne veuillez vous tenir près de la borne en question.</string>
+    <string name="type_add">Type :</string>
+    <string name="type_usb_add">USB</string>
+    <string name="type_AC_add">Prise AC</string>
+    <string name="details_title_add">Détails :</string>
+    <string name="details_hint_add">La prise est sur un arret de bus...</string>
+
+    <!-- infoWindow -->
+    <string name="report_infoWindow">Signaler borne</string>
+    <string name="favorite_infoWindow">Ajouter au favoris</string>
+    <string name="directions_infoWindow">itinéraire</string>
+    <string name="type_infoWindow"></string>
+    <string name="details_infoWindow"></string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="settings_notif">Notifications</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_details_fragment">DetailsFragment</string>
+
+
+
+</resources>

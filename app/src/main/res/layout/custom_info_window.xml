@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/type_add"
+            android:textStyle="bold"
+            android:id="@+id/type_title_add" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:id="@+id/type_infoWindow"
+            android:text="@string/type_infoWindow"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="@string/details_title_add"
+        android:textStyle="bold"
+        android:id="@+id/details_title_add" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/details_infoWindow"
+        android:text="@string/details_infoWindow"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/favorite_infoWindow"
+            android:src="@drawable/ic_grade_black_48dp"
+            android:title="@string/favorite_infoWindow"
+            style="?android:attr/borderlessButtonStyle"
+            android:adjustViewBounds="true" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/itineraire_infoWindow"
+            android:src="@drawable/ic_directions_black_48dp"
+            android:title="@string/directions_infoWindow"
+            style="?android:attr/borderlessButtonStyle"
+            android:adjustViewBounds="true" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/report_infowindow"
+            android:src="@drawable/ic_report_problem_black_48dp"
+            android:title="@string/report_infoWindow"
+            style="?android:attr/borderlessButtonStyle"
+            android:adjustViewBounds="true" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

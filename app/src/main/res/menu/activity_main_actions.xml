@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Ajouter -->
+    <item android:id="@+id/action_add"
+        android:icon="@drawable/ic_add_location_white_48dp"
+        android:title="@string/action_add"
+        app:showAsAction="ifRoom" />
+
+    <!-- Favorite -->
+    <item android:id="@+id/action_favorite"
+        android:icon="@drawable/ic_grade_white_48dp"
+        android:title="@string/action_favorite"
+        app:showAsAction="ifRoom" />
+
+    <!-- Reglages -->
+    <item android:id="@+id/action_settings"
+        android:icon="@drawable/ic_settings_white_48dp"
+        android:title="@string/action_settings"
+        app:showAsAction="ifRoom" />
+
+</menu>
